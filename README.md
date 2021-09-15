@@ -9,7 +9,7 @@ and ends with EOI (End Of Image) bytes 0xFF, 0xD9
 
 ![END BYTES IMG](/doc/endbytes.png)
 
-So immediately after "reading" the EOI bits, the image display program is not interested in the next bits. Thanks to this, in the next bits you can encode whatever you want, in the case of this program - a secret message or a completely different photo or several photos. Without hex code analysis, such a photo looks like a completely normal photo without arousing any suspicions.
+So immediately after "reading" the EOI bytes, the image displaying program is not interested in the next bytes. Thanks to this, in the next bytes you can encode whatever you want, in the case of this program - a secret message or a completely different photo or several photos. Without hex code analysis, such a photo looks like a completely normal photo without arousing any suspicions.
 
 ## Running
 
